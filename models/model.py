@@ -136,7 +136,7 @@ class EfficientCapsNet(Model):
         train the constructed network with a given dataset. All train hyperparameters are defined in the configuration file
 
     """
-    def __init__(self, model_name, mode='test', config_path='config.json', custom_path=None, verbose=True):
+    def __init__(self, model_name, mode='test', config_path='/content/Efficient-CapsNet/config.json', custom_path=None, verbose=True):
         Model.__init__(self, model_name, mode, config_path, verbose)
         if custom_path != None:
             self.model_path = custom_path

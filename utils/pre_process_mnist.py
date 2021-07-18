@@ -21,7 +21,7 @@ tf2 = tf.compat.v2
 
 # constants
 MNIST_IMG_SIZE = 28
-MNIST_TRAIN_IMAGE_COUNT = 60000
+MNIST_TRAIN_IMAGE_COUNT = 1843
 PARALLEL_INPUT_CALLS = 16
 
 # normalize dataset

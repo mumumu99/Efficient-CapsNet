@@ -74,6 +74,7 @@ class Dataset(object):
             self.X_test, self.y_test = pre_process_mnist.pre_process(self.X_test, self.y_test)
             self.class_names = list(range(10))
             print("[INFO] Dataset loaded!")
+            print(self.X_train.shape, self.y_train.shape, self.X_test.shape, self.y_test.shape)
         elif self.model_name == 'SMALLNORB':
                     # import the datatset
             (ds_train, ds_test), ds_info = tfds.load(
